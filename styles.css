@@ -47,6 +47,7 @@ box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 .info {
     display: flex;
     margin-bottom: 20px;
+}
 
     /* Подстраивается под любое разрешение устройства */
 @media (max-width: 700px) {
@@ -57,7 +58,6 @@ box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
     }
 }
 
-}
 
 .info-text {
 margin-left: 40px;
@@ -203,7 +203,7 @@ color: #86898f;
     border: none;
     background: transparent;
     border-bottom: 1px solid #ccc;
-    color: black;
+    color: #000;
     padding: 15px 0 10px;
     outline: none;
     font-family: inherit; /*Наследование шрифта*/
